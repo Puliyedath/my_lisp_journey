@@ -17,3 +17,4 @@
 (reverse(mapcar #' first details))
 
 ;;; lambda expresssions
+(mapcar #'(lambda (n) (* n n )) '(1 2 3 4))
