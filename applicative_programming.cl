@@ -53,4 +53,10 @@
 ;;every another applicative operator
 (every #'evenp '(2 4 6 8))
 
- 
+;;; trace and untrace macro applicative operators
+(defun average(a b)
+  (/(+ a b) 2))
+
+(average 10 3)
+
+;;; operating multiple lists
