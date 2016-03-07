@@ -43,4 +43,13 @@
 ;;; remove-if applicative operator and remove if not applicative operator
 (remove-if-not #'evenp '(1 3 4 5))
 
+
+;;; reduce the next applicative operator
+(reduce #'+ '(1 2 3 4))
+(reduce #'+ ())
+
+(reduce #'append details)
+
+;;every another applicative operator
+
  
