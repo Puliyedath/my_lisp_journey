@@ -39,4 +39,8 @@
 
 (my-assoc 'name details)
 
+
+;;; remove-if applicative operator and remove if not applicative operator
+(remove-if-not #'evenp '(1 3 4 5))
+
  
