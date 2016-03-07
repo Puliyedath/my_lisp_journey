@@ -1,0 +1,3 @@
+;;;debugging function in emacs
+go the line - select M-x edebug-function
+execute the function in the read eval loop
