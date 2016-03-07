@@ -26,3 +26,17 @@
 (mapcar #'(lambda (n)
 	    (list 'hi n))
 	'(aneesh ajeesh hareesh))
+
+;;; find-if operator
+(setf g10 (lambda (x) (> x 10)))
+(find-if g10 '(6 2 13))
+
+
+;;;my own version of assoc
+(defun my-assoc(key table)
+  (find-if #'(lambda (entry)
+	       (equal key (first entry))) table))
+
+(my-assoc 'name details)
+
+ 
