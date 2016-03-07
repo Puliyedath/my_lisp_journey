@@ -1,3 +1,7 @@
-;;;debugging function in emacs
-go the line - select M-x edebug-function
-execute the function in the read eval loop
+
+debugging function in emacs
+	  go the line - select M-x edebug-function
+	  execute the function in the read eval loop
+	  check this link : https://www.gnu.org/software/emacs/manual/html_node/elisp/Using-Edebug.html
+	  once you are in the edebug mode press space to step through and the buffer next to it will display teh trace
+	  press q will take you to the top debug loop
