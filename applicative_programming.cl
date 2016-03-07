@@ -51,5 +51,6 @@
 (reduce #'append details)
 
 ;;every another applicative operator
+(every #'evenp '(2 4 6 8))
 
  
